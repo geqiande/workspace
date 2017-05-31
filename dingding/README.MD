@@ -18,6 +18,14 @@ ${root}/ 根目录
       .../ js文件
     template/
       .../ 模板文件(切图需要，可删)
+    project/	
+     .../项目
+    staff/		
+     .../员工
+    client/		
+     .../客户
+    message/	
+     .../消息
     index.html 入口文件
 
 ```
