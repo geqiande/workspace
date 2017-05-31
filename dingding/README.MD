@@ -22,7 +22,8 @@ ${root}/ 根目录
      .../项目
     staff/		
      .../员工
-    client/		
+     workbench.html 工作台
+    client/		
      .../客户
     message/	
      .../消息
