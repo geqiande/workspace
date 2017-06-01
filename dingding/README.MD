@@ -27,6 +27,7 @@ ${root}/ 根目录
      .../员工
      workbench.html 工作台
      employeelist.html 员工列表
+     authoritymanagement.html 权限管理
     client/		
      .../客户
     message/	
