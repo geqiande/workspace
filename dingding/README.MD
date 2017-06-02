@@ -30,7 +30,8 @@ ${root}/ 根目录
      authoritymanagement.html 权限管理
     client/		
      .../客户
-    message/	
+     projectdetails.html 项目详情
+    message/	
      .../消息
     index.html 入口文件
 
