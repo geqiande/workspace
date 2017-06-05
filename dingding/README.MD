@@ -23,14 +23,19 @@ ${root}/ 根目录
       .../ 模板文件(切图需要，可删)
     project/	
      .../项目
-    staff/		
+     projectdetails.html 项目详情
+     projectinformation.html 项目资料
+     projectlist.html 项目列表
+    staff/		
      .../员工
      workbench.html 工作台
      employeelist.html 员工列表
      authoritymanagement.html 权限管理
     client/		
      .../客户
-     projectdetails.html 项目详情
+     withdetails.html 跟单详情
+     customerdetails.html 客户详情
+     customerlist.html 客户列表
     message/	
      .../消息
     index.html 入口文件
