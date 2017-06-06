@@ -39,6 +39,7 @@ ${root}/ 根目录
      customerdetails.html 客户详情
      customerlist.html 客户列表
      projectstructure.html 项目列表
+     projecttesting.html 项目测试
     message/	
      .../消息
     index.html 入口文件
