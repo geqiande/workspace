@@ -27,6 +27,7 @@ ${root}/ 根目录
      projectinformation.html 项目资料
      projectlist.html 项目列表
      projectdivisionoflabor.html 项目分工
+     testdetails.html 测试详情
     staff/		
      .../员工
      workbench.html 工作台
