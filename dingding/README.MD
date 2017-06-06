@@ -26,6 +26,7 @@ ${root}/ 根目录
      projectdetails.html 项目详情
      projectinformation.html 项目资料
      projectlist.html 项目列表
+     projectdivisionoflabor.html 项目分工
     staff/		
      .../员工
      workbench.html 工作台
@@ -36,6 +37,7 @@ ${root}/ 根目录
      withdetails.html 跟单详情
      customerdetails.html 客户详情
      customerlist.html 客户列表
+     projectstructure.html 项目列表
     message/	
      .../消息
     index.html 入口文件
