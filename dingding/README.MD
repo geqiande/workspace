@@ -28,6 +28,9 @@ ${root}/ 根目录
      projectlist.html 项目列表
      projectdivisionoflabor.html 项目分工
      testdetails.html 测试详情
+     projectstructure.html 项目列表
+     projecttesting.html 项目测试
+     listofcomplaints.html 申诉列表
     staff/		
      .../员工
      workbench.html 工作台
@@ -38,8 +41,7 @@ ${root}/ 根目录
      withdetails.html 跟单详情
      customerdetails.html 客户详情
      customerlist.html 客户列表
-     projectstructure.html 项目列表
-     projecttesting.html 项目测试
+     
     message/	
      .../消息
     index.html 入口文件
