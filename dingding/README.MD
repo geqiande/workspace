@@ -45,8 +45,9 @@ ${root}/ 根目录
      
     message/	
      .../消息
-     
-     
+     mymessageforall.html 群聊
+     mymessageforone.html 单聊
+     
     schedule/
      .../日程
      logquery.html 日志查询
