@@ -49,6 +49,8 @@ ${root}/ 根目录
      
     schedule/
      .../日程
+     logquery.html 日志查询
+     worklog.html 工作日志
     index.html 入口文件
 
 ```
