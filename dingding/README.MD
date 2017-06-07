@@ -45,6 +45,10 @@ ${root}/ 根目录
      
     message/	
      .../消息
+     
+     
+    schedule/
+     .../日程
     index.html 入口文件
 
 ```
