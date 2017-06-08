@@ -48,6 +48,7 @@ ${root}/ 根目录
      mymessageforall.html 群聊
      mymessageforone.html 单聊
      messagelist.html 消息列表
+     missioncenter.html 任务中心
      
     schedule/
      .../日程
