@@ -53,6 +53,10 @@ ${root}/ 根目录
      logquery.html 日志查询
      worklog.html 工作日志
      schedule.html 日程管理
+     worklogmy.html 我收到的日志
+     worklogmysend.html 我发出的日志
+     worklogmylove.html 我收藏的日志
+     logdetails.html 日志详情
     index.html 入口文件
 
 ```
