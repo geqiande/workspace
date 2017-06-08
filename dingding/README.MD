@@ -47,6 +47,7 @@ ${root}/ 根目录
      .../消息
      mymessageforall.html 群聊
      mymessageforone.html 单聊
+     messagelist.html 消息列表
      
     schedule/
      .../日程
