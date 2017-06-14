@@ -19,8 +19,8 @@ ${root} : 根目录
 		|-girl.css : 女生主题
 	|-index.html : 入口html文件		
 ```
-## 所用技术
-```javascript
+## 所用插件
+```cmd
 	jQuery v2.2.0
 	BootStrap v3.3.7
 	Swiper v3.4.2
