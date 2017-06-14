@@ -1,6 +1,8 @@
 # 花蔑项目规划
 
-## 公共html 通用代码
+## 公共静态代码
+
+### 公共html 通用代码
 
 ```html
 
@@ -34,12 +36,13 @@
 </body>
 <script type="text/javascript" src="./plus/jquery.2.2.0.min.js"></script>
 <script type="text/javascript" src="./plus/bootstrap.min.js"></script>
+<script type="text/javascript" src="./plus/layer.js"></script>
 <script type="text/javascript" src="./js/public.js"></script>
 </html>
 
 ```
 
-## 头部代码
+### 头部代码
 
 ```html
 
@@ -148,7 +151,7 @@
 
 ```
 
-## 尾部代码
+### 尾部代码
 
 ```html
 
@@ -269,4 +272,10 @@
     </div>
 
 ```
+## 公共js使用
 
+### jQuery v2.2.0
+```html
+<script type="text/javascript" src="./plus/jquery.2.2.0.min.js"></script>
+```
+** 使用方法 \ **
