@@ -17,6 +17,10 @@ ${root} : 根目录
 	|-theme : css主题文件夹
 		|-boy.css : 男生主题
 		|-girl.css : 女生主题
+	|-membercentre : 会员中心文件夹
+		|- ...
+	|-authorcenter : 作者中心
+		|- ...
 	|-index.html : 入口html文件		
 ```
 ## 所用插件
