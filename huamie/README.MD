@@ -1,4 +1,26 @@
 # 花蔑项目规划
+## 目录结构
+```javascript
+	${root} : 根目录
+		|-css : css文件夹
+			|- ...
+		|-fonts : 字体图标文件夹
+			|- ...
+		|-icon : ui元素图文件夹
+			|- ...
+		|-images : 图片文件夹
+			|- ...
+		|-js : javascript文件夹
+			|- ...
+		|-plus : js插件文件夹
+			|- ...
+		|-theme : css主题文件夹
+			|-boy.css : 男生主题
+			|-girl.css : 女生主题
+		|-index.html : 入口html文件		
+```
+## 所用技术
+
 
 ## 公共静态代码
 
