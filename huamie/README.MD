@@ -280,7 +280,7 @@
 ```
 
 ```javascript
-	使用方法  \ 
+	使用方法  jquery.com 
 ```
 ### bootstrap.min.js v3.3.7
 
@@ -288,7 +288,7 @@
 <script type="text/javascript" src="./plus/bootstrap.min.js"></script>
 ```
 ```javascript
-	使用方法  \ 
+	使用方法  http://v3.bootcss.com 
 ```
 ### layer.min.js v2.0
 
@@ -320,4 +320,13 @@
 		a(); //关闭
 		
 ```
->
+
+### swiper.min.js v3.4.2
+
+```html
+<script type="text/javascript" src="./plus/swiper.min.js"></script>
+```
+```javascript
+	使用方法  http://www.swiper.com.cn/
+```
+
