@@ -274,7 +274,7 @@
 ```
 ## 公共js使用
 
-### jQuery v2.2.0
+### jQuery.min.js v2.2.0
 ```html
 <script type="text/javascript" src="./plus/jquery.2.2.0.min.js"></script>
 ```
@@ -282,4 +282,42 @@
 ```javascript
 	使用方法  \ 
 ```
- 
+### bootstrap.min.js v3.3.7
+
+```html
+<script type="text/javascript" src="./plus/bootstrap.min.js"></script>
+```
+```javascript
+	使用方法  \ 
+```
+### layer.min.js v2.0
+
+```html
+<script type="text/javascript" src="./plus/layer.js"></script
+```
+```javascript
+	//使用方法  
+	
+	//信息提示 确认消失
+	rose.console.message(content, fn, btn);
+	
+	//信息提示 自动消失
+	rose.console.log(content, time);
+	
+	//普通确认框
+	rose.console.confirm(content, fn,fn2, btn);
+	
+	//底部消息框
+	rose.console.bottomMsg(content);
+	
+	//底部确认框
+	rose.console.bottomConfirm(content, fn,fn2, btn);
+	
+	//加载框
+	rose.console.load(content); //[return close function]
+		//例子
+		var a = rose.console.load('加载中...');
+		a(); //关闭
+		
+```
+>
