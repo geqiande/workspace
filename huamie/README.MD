@@ -278,4 +278,8 @@
 ```html
 <script type="text/javascript" src="./plus/jquery.2.2.0.min.js"></script>
 ```
-** 使用方法 \ **
+
+```javascript
+	使用方法  \ 
+```
+ 
