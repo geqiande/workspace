@@ -30,6 +30,13 @@ ${root} : 根目录
 	Swiper v3.4.2
 	Layer v2.0
 ```
+## 命名规范
+
+```cmd
+	authorwelfare.html 作者福利
+	login.html 登录
+	registered.html 注册
+```
 
 ## 公共静态代码
 
