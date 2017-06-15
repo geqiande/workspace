@@ -48,7 +48,6 @@ ${root} : 根目录
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="./css/public.css">
     <link rel="stylesheet" type="text/css" href="./theme/girl.css"> <!-- 如果是男孩的话渲染 boy.css(づ￣3￣)づ╭～ -->
     <title>主页</title>
