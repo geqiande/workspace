@@ -129,7 +129,7 @@ ${root} : 根目录
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand-logo" href="#">
+                            <a class="navbar-brand-logo" href="./index.html">
                                 <img src="./icon/logo.png" alt="logo">
                             </a>
                         </div>
