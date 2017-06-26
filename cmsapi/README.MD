@@ -6,6 +6,7 @@
 ### [1.发送留言](#发送留言) 
 ### [2.获取网站配置](#获取网站配置)
 ### [3.获取网站导航配置](#获取网站导航配置)
+### [4.获取轮播图配置](#获取轮播图配置)
 #
 ## 发送留言
 ```javascript
@@ -105,6 +106,23 @@ rose.ajax.getNav(data,successCallback,errorCallback);
 		nav : '头部导航显示',
 		samefile : '底部导航显示',
 		display : '是否显示'
+	}
+]
+```
+#### `errorCallback` 失败后的回掉函数 接受失败原因
+
+## 获取轮播图配置
+```javascript
+rose.ajax.getFlash(successCallback,errorCallback)
+```
+#### `successCallback` 成功后的回掉函数 接受后台返回的数据,函数接收参数格式
+```javascript
+[
+	{
+		id : '图片ID',
+		img_title : '图片名称',
+		img_path : '图片路径',
+		img_link : '图片链接地址'
 	}
 ]
 ```
