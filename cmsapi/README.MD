@@ -7,6 +7,7 @@
 ### [2.获取网站配置](#获取网站配置)
 ### [3.获取网站导航配置](#获取网站导航配置)
 ### [4.获取轮播图配置](#获取轮播图配置)
+### [5.获取友情链接配置](#获取友情链接配置)
 #
 ## 发送留言
 ```javascript
@@ -127,3 +128,21 @@ rose.ajax.getFlash(successCallback,errorCallback)
 ]
 ```
 #### `errorCallback` 失败后的回掉函数 接受失败原因
+
+## 获取友情链接配置
+```javascript
+rose.ajax.getLink(successCallback,errorCallback);
+```
+### 参数说明
+#### `successCallback` 成功后的回掉函数 接受后台返回的数据,函数接收参数格式
+```javascript
+[
+	{
+		id : '链接ID',
+		webname : '网站名称',
+		weburl : '网站链接'
+	}
+]
+```
+#### `errorCallback` 失败后的回掉函数 接受失败原因
+
