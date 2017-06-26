@@ -73,3 +73,38 @@ rose.ajax.getConfig(successCallback,errorCallback);
 }
 ```
 #### `errorCallback` 失败后的回掉函数 接受失败原因
+
+
+## 获取网站导航配置
+```javascript
+rose.ajax.getNav(data,successCallback,errorCallback);
+```
+### 参数说明
+#### `data` 传给后台的数据
+```cmd
+{
+  position : String,//导航位置 [选填]
+  bigclass : String,//导航所属大类 [选填]
+  id : String,//导航id [选填]
+}
+```
+#### `successCallback` 成功后的回掉函数 接受后台返回的数据,函数接收参数格式
+```javascript
+[
+	{
+		id : '栏目的ID',
+		name : '栏目名称',
+		keywords : '栏目关键词',
+		description : '栏目简短描述',
+		indeximg : '标识图片',
+		columnimg : '栏目图片',
+		bigclass : '上级栏目ID',
+		module : '栏目等级',
+		out_url : '外部模块链接URL',
+		nav : '头部导航显示',
+		samefile : '底部导航显示',
+		display : '是否显示'
+	}
+]
+```
+#### `errorCallback` 失败后的回掉函数 接受失败原因
