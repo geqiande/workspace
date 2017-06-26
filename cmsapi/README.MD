@@ -10,10 +10,10 @@ rose.ajax.sendMessage(data,successCallback,errorCallback);
 #### `data` 传给后台的数据
 ```cmd
 {
-  linkman : '',//联系人 [必填]
-  phone : '',//电话 [必填]
-  email : '',//邮箱 [选填]
-  content : ''//留言内容 [选填]
+  linkman : String,//联系人 [必填]
+  phone : String,//电话 [必填]
+  email : String,//邮箱 [选填]
+  content : String//留言内容 [选填]
 }
 ```
 #### `successCallback` 成功后的回掉函数 接受后台返回的数据
