@@ -147,7 +147,7 @@ rose.ajax.getLink(successCallback,errorCallback);
 ```
 #### `errorCallback` 失败后的回掉函数 接受失败原因
 
-### 获取在线客服配置
+## 获取在线客服配置
 ```javascript
 rose.ajax.getLink(data,successCallback,errorCallback);
 ```
