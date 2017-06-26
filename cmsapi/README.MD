@@ -8,6 +8,7 @@
 ### [3.获取网站导航配置](#获取网站导航配置)
 ### [4.获取轮播图配置](#获取轮播图配置)
 ### [5.获取友情链接配置](#获取友情链接配置)
+### [6.获取在线客服配置](#获取在线客服配置)
 #
 ## 发送留言
 ```javascript
@@ -146,3 +147,31 @@ rose.ajax.getLink(successCallback,errorCallback);
 ```
 #### `errorCallback` 失败后的回掉函数 接受失败原因
 
+### 获取在线客服配置
+```javascript
+rose.ajax.getLink(data,successCallback,errorCallback);
+```
+### 参数说明
+#### `data` 传给后台的数据
+```cmd
+{
+  class : int //1为客服，二为代理
+}
+#### `successCallback` 成功后的回掉函数 接受后台返回的数据,函数接收参数格式
+```javascript
+[
+	{
+		id : '信息ID',
+		name : '客服名称',
+		no_order : '排序',
+		qq : 'QQ号码',
+		msn : 'MSN',
+		taobao : '淘宝帐号',
+		alibaba : '阿里巴巴帐号',
+		skype : '类别',
+		lang : '语言',
+		addtime : '添加时间'
+	}
+]
+```
+#### `errorCallback` 失败后的回掉函数 接受失败原因
