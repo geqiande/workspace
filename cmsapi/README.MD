@@ -4,6 +4,7 @@
 #
 # 目录 
 ### [发送留言](#发送留言) 
+### 获取网站配置(#获取网站配置)
 #
 ## 发送留言
 ```javascript
@@ -42,3 +43,33 @@ rose.ajax.sendMessage(data,successCallback,errorCallback);
 		console.log(error)
 	})
 ```
+
+
+## 获取网站配置
+```javascript
+rose.ajax.getConfig(successCallback,errorCallback);
+```
+#### `successCallback` 成功后的回掉函数 接受后台返回的数据,函数接收参数格式
+```javascript
+{
+	tx_weburl : '网站网址 ',
+	tx_webname : '网站名称 ',
+	tx_logo : '网站LOGO ',
+	tx_ico : '网站ico ',
+	tx_img_x : 'QQ1 ',
+	tx_img_y : 'QQ2 ',
+	tx_keywords : '网站关键词 ',
+	tx_description : '网站描述 ',
+	tx_linkname : '公司名称 ',
+	tx_footright : '版权信息 ',
+	tx_footaddress : '邮编 ',
+	tx_foottel : '服务电话 ',
+	tx_footother : '售后电话 ',
+	tx_foottext : '传真 ',
+	tx_footstat : '公司介绍 ',
+	tx_fd_fromname : '技术支持 ',
+	tx_fd_usename : 'E-mail ',
+	tx_mapcontents : '公司位置 '
+}
+```
+#### `errorCallback` 失败后的回掉函数 接受失败原因
