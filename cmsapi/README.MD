@@ -4,9 +4,9 @@
 #
 # 目录 
 ### [发送留言](#发送留言) 
-### 获取网站配置(#获取网站配置)
+### [获取网站配置](#获取网站配置)
 #
-## 发送留言
+## 1.发送留言
 ```javascript
 rose.ajax.sendMessage(data,successCallback,errorCallback);
 ```
@@ -45,7 +45,7 @@ rose.ajax.sendMessage(data,successCallback,errorCallback);
 ```
 
 
-## 获取网站配置
+## 2.0获取网站配置
 ```javascript
 rose.ajax.getConfig(successCallback,errorCallback);
 ```
