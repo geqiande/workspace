@@ -10,6 +10,7 @@
 ### [5.获取友情链接配置](#获取友情链接配置)
 ### [6.获取在线客服配置](#获取在线客服配置)
 ### [7.获取招聘信息](#获取招聘信息)
+### [8.获取产品信息](#获取产品信息)
 #
 ## 发送留言
 ```javascript
@@ -206,4 +207,22 @@ rose.ajax.getJob(data,successCallback,errorCallback);
 ```
 #### `errorCallback` 失败后的回掉函数 接受失败原因
 
+## 获取产品信息
+
+### 参数说明
+#### `data` 传给后台的数据
+```cmd
+{
+	class : '栏目等级', 
+	pageNum : '分页数',
+	pageSize : '页条数',
+	com_ok : '是否推荐', 
+	id : '产品ID'
+}
+```
+#### `successCallback` 成功后的回掉函数 接受后台返回的数据,函数接收参数格式
+```javascript
+//详情见 http://www.hntxrj.com/txal/meidi/admin/doc/Version2.1/cmsinterfaceintroduce.htm#tx_product
+```
+#### `errorCallback` 失败后的回掉函数 接受失败原因
 
