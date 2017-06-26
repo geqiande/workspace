@@ -9,6 +9,7 @@
 ### [4.获取轮播图配置](#获取轮播图配置)
 ### [5.获取友情链接配置](#获取友情链接配置)
 ### [6.获取在线客服配置](#获取在线客服配置)
+### [7.获取招聘信息](#获取招聘信息)
 #
 ## 发送留言
 ```javascript
@@ -149,7 +150,7 @@ rose.ajax.getLink(successCallback,errorCallback);
 
 ## 获取在线客服配置
 ```javascript
-rose.ajax.getLink(data,successCallback,errorCallback);
+rose.ajax.getOnline(data,successCallback,errorCallback);
 ```
 ### 参数说明
 #### `data` 传给后台的数据
@@ -175,3 +176,34 @@ rose.ajax.getLink(data,successCallback,errorCallback);
 ]
 ```
 #### `errorCallback` 失败后的回掉函数 接受失败原因
+
+## 获取招聘信息
+```javascript
+rose.ajax.getJob(data,successCallback,errorCallback);
+```
+
+### 参数说明
+#### `data` 传给后台的数据
+```cmd
+{
+  id : int //招聘id
+}
+```
+#### `successCallback` 成功后的回掉函数 接受后台返回的数据,函数接收参数格式
+```javascript
+ [
+ 	{
+
+		id : '信息ID',
+		position : '职位名称',
+		place : '工作地点',
+		deal : '职位类型',
+		useful_life : '人数需求',
+		content : '招聘内容'
+
+	 }
+ ]
+```
+#### `errorCallback` 失败后的回掉函数 接受失败原因
+
+
