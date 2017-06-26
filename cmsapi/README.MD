@@ -7,9 +7,8 @@ rose.ajax.sendMessage(data,successCallback,errorCallback);
 ```
 
 ### 参数说明
-#### data
+#### data `传给后台的数据`
 ```cmd
-data // 发送给后台的参数
 {
   linkman : '',//联系人 [必填]
   phone : '',//电话 [必填]
