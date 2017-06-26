@@ -1,6 +1,6 @@
 # cmsApi 
 # 接口版本 version 2.0
-# 返回状态码统一 code:  //0失败，1成功
+## 返回状态码统一 code:  0失败，1成功
 
 ## 发送留言
 ```javascript
@@ -28,14 +28,14 @@ rose.ajax.sendMessage(data,successCallback,errorCallback);
 
 ### 使用实例
 ```javascript
-		rose.ajax.sendMessage({
-			linkman : 'millent',
-			phone : '12345678911',
-			email : '123@qq.com',
-			content : 'show me my life'
-		},function(data){
-			console.log(data)
-		},function(error){
-			console.log(error)
-		})
+	rose.ajax.sendMessage({
+		linkman : 'millent',
+		phone : '12345678911',
+		email : '123@qq.com',
+		content : 'show me my life'
+	},function(data){
+		console.log(data)
+	},function(error){
+		console.log(error)
+	})
 ```
