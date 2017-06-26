@@ -1,7 +1,10 @@
 # cmsApi 
 # 接口版本 version 2.0
 ## 返回状态码统一 code:  0失败，1成功
-
+#
+#
+#
+#
 ## 发送留言
 ```javascript
 rose.ajax.sendMessage(data,successCallback,errorCallback);
