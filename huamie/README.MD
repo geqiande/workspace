@@ -71,7 +71,7 @@ ${root} : 根目录
   
 
 </body>
-<script type="text/javascript" src="./plus/jquery.2.2.0.min.js"></script>
+<script type="text/javascript" src="./plus/jquery.1.9.1.min.js"></script>
 <script type="text/javascript" src="./plus/bootstrap.min.js"></script>
 <script type="text/javascript" src="./plus/layer.js"></script>
 <script type="text/javascript" src="./js/public.js"></script>
@@ -311,9 +311,9 @@ ${root} : 根目录
 ```
 ## 公共js使用
 
-### jQuery.min.js v2.2.0
+### jQuery.min.js v1.9.1
 ```html
-<script type="text/javascript" src="./plus/jquery.2.2.0.min.js"></script>
+<script type="text/javascript" src="./plus/jquery.1.9.1.min.js"></script>
 ```
 
 ```javascript
