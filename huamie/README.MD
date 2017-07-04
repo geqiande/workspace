@@ -17,11 +17,33 @@ ${root} : 根目录
 	|-theme : css主题文件夹
 		|-boy.css : 男生主题
 		|-girl.css : 女生主题
-	|-personalcenter : 个人中心文件夹
-		|- ...
-	|-authorcenter : 作者中心
-		|- ...
 	|-index.html : 入口html文件		
+```
+## 页面规划
+```javascript
+${root} : 根目录
+	|-个人中心 
+		|-rechargecentre.html 充值中心
+		|-privateletter.html 来往私信
+		|-minformation.html 修改资料
+		|-basicinformation.html 基本资料
+	|-作者中心 
+		|-publishednovels.html 发表小说
+		|-newdraft.html 新建草稿
+		|-managethenovel.html 管理小说
+		|-managedrafts.html 管理草稿
+		|-incomemanagement.html 收入管理
+		|-applyforshelves.html 申请上架
+		|-applyforacontract.html 申请签约
+	|-基本模块
+		|-login-mobile.html 手机登录页面
+		|-index.html 主页
+		|-authorwelfare.html 作者福利
+		|-about-us.html 关于我们
+		
+		
+		
+		
 ```
 ## 所用插件
 ```cmd
