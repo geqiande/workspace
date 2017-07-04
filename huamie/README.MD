@@ -35,6 +35,7 @@ ${root} : 根目录
 		|-incomemanagement.html 收入管理
 		|-applyforshelves.html 申请上架
 		|-applyforacontract.html 申请签约
+		|-mymessage.html 我的留言
 	|-基本模块
 		|-login-mobile.html 手机登录页面
 		|-index.html 主页
