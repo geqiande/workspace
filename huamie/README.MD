@@ -41,6 +41,7 @@ ${root} : 根目录
 		|-index.html 主页
 		|-authorwelfare.html 作者福利
 		|-about-us.html 关于我们
+	|-手机页面模块
 		
 		
 		
